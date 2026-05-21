@@ -1,3 +1,5 @@
 node_modules/
 dist/
+dist-lib-split/
+dist-lib-injected/
 .DS_Store
