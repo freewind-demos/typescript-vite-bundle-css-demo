@@ -8,6 +8,8 @@
     "build": "vite build",
     "build:lib:split": "vite build --config vite.lib.split.config.ts",
     "build:lib:injected": "vite build --config vite.lib.injected.config.ts",
+    "build:lib:css-file": "vite build --config vite.lib.split.config.ts",
+    "build:lib:css-in-js": "vite build --config vite.lib.injected.config.ts",
     "build:all": "pnpm run build && pnpm run build:lib:split && pnpm run build:lib:injected",
     "inspect:dist": "node scripts/inspect-dist.mjs",
     "inspect:lib": "node scripts/inspect-lib.mjs",
